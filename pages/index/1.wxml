@@ -1,5 +1,8 @@
 <!--pages/index/1.wxml-->
-  <image src="http://13985806.s21i.faiusr.com/2/ABUIABACGAAgjrPRygUohbfI8gQwkAM4WQ.jpg" mode="widthFix"></image>
+<view>
+  <image src="http://13985806.s21i.faiusr.com/2/ABUIABACGAAgjrPRygUohbfI8gQwkAM4WQ.jpg" mode="widthFix" id='logo'></image>
+
+</view>
 
 <text>广州中航环保科技有限公司欢迎您</text>
   <view class="usermotto">

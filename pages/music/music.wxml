@@ -1,0 +1,2 @@
+<button id="button" bindtap="pauseAndPlay"><cover-image id="coverButtonMusic" src="/resources/play.png">
+{{button_text}}</cover-image></button>

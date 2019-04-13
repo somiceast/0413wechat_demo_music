@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/index/1",
     "pages/share/share",
-    "pages/maps/map"
+    "pages/maps/map",
+    "pages/music/music"
   ],
   "permission": {
     "scope.userLocation": {
@@ -31,6 +32,10 @@
       {
         "pagePath": "pages/index/1",
         "text": "新闻交流"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "放松一下"
       }
       
     ]

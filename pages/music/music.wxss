@@ -1,0 +1,11 @@
+/* pages/music/music.wxss */
+/* TODO:不能居中 */
+#button {
+  width: 3rem;
+  height:3rem;
+}
+#coverButtonMusic {
+  align-self: left;
+  height:2.5rem;
+  width: 2.5rem;
+}
