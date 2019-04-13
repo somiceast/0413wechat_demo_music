@@ -1,0 +1,8 @@
+<!--pages/index/1.wxml-->
+<text>广州中航环保科技有限公司欢迎您</text>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <button type="default" bindtap="bindback">点击我play music</button>  
+  <button type="default" bindtap="stopPlay">点击我pause music</button>

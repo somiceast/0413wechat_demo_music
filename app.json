@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/1"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarTitleText": "广州中航环保科技有限公司",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/index/1",
+        "text": "中航环保"
+      }
+      
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "requiredBackgroundModes":["audio"]
+}
