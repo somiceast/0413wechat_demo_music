@@ -1,8 +1,14 @@
 <!--pages/index/1.wxml-->
+  <image src="http://13985806.s21i.faiusr.com/2/ABUIABACGAAgjrPRygUohbfI8gQwkAM4WQ.jpg" mode="widthFix"></image>
+
 <text>广州中航环保科技有限公司欢迎您</text>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-
   <button type="default" bindtap="bindback">点击我play music</button>  
   <button type="default" bindtap="stopPlay">点击我pause music</button>
+  <button type="default" bindtap="stopPlay">点击我share music</button>
+  <text class="user-motto">{{shareInfo}}</text>
+  <input focus="false" bindconfirm="inputFinish">
+    
+  </input>

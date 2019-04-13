@@ -2,8 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/index/1"
+    "pages/index/1",
+    "pages/share/share",
+    "pages/maps/map"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#00ff00",
@@ -15,15 +22,15 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "咨询交流"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/maps/map",
+        "text": "在线地图"
       },
       {
         "pagePath": "pages/index/1",
-        "text": "中航环保"
+        "text": "新闻交流"
       }
       
     ]

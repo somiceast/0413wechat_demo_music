@@ -1,0 +1,5 @@
+/* pages/maps/map.wxss */
+.map {
+  display: flex;
+  margin: 20rpx
+}
